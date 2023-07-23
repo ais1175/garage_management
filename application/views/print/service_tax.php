@@ -208,7 +208,7 @@ function ReadNumber($number)
 
             <td>
 
-                <img src="<?=base_url();?>/assets/img/logo.png" alt="" style="max-width: 120px;">
+                <!-- <img src="<?=base_url();?>/assets/img/logo.png" alt="" style="max-width: 120px;"> -->
 
             </td>
 
