@@ -50,7 +50,7 @@
 
                 <td class="text-center">
 
-                    <a href="<?=base_url();?>/pages/service_detail/<?=$item->service_invoice;?>" class="btn btn-sm btn-default rounded-0">รายละเอียด</a>
+                    <a href="<?=base_url();?>pages/service_detail/<?=$item->service_invoice;?>" class="btn btn-sm btn-default rounded-0">รายละเอียด</a>
 
                 </td>
 

@@ -34,7 +34,7 @@
 
                 <td class="text-center">
 
-                    <a href="<?=base_url();?>/pages/customer_detail/<?= $item->cus_id; ?>" class="btn btn-flat btn-default btn-sm">ประวัติการเข้าซ่อม</a>
+                    <a href="<?=base_url();?>pages/customer_detail/<?= $item->cus_id; ?>" class="btn btn-flat btn-default btn-sm">ประวัติการเข้าซ่อม</a>
 
                     <button type="button" onclick="getCustomer('<?= $item->cus_id; ?>');" title="แก้ไขข้อมูลลูกค้า" class="btn btn-outline-primary btn-sm btn-flat" data-toggle="modal" data-target="#modalEditCustomer">
 
@@ -190,7 +190,7 @@
 
                         $.ajax({
 
-                            url: '/customer/del_customer',
+                            url: '<?=base_url();?>customer/del_customer',
 
                             method: 'POST',
 
@@ -260,7 +260,7 @@
 
         $.ajax({
 
-            url: '/customer/get_customer',
+            url: '<?=base_url();?>customer/get_customer',
 
             method: 'POST',
 
@@ -374,7 +374,7 @@
 
                         $.ajax({
 
-                            url: '/customer/update_customer',
+                            url: '<?=base_url();?>customer/update_customer',
 
                             method: 'POST',
 

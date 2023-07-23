@@ -29,8 +29,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $base .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 
 //DEVELOP LOCALHOST
-$base  = "http://127.0.0.1/garage_management/";
+// $base  = "http://127.0.0.1/garage_management/";
 
+$config['base_url'] = "http://127.0.0.1/garage_management/";
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -447,7 +448,7 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------

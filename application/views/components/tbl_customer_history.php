@@ -80,11 +80,11 @@
 
                 <td class="text-center">
 
-                    <a href="<?=base_url();?>/pages/service_detail/<?=$item->service_invoice;?>" class="btn btn-default btn-flat btn-sm mt-1"><i class="fas fa-list"></i> รายละเอียด</a>
+                    <a href="<?=base_url();?>pages/service_detail/<?=$item->service_invoice;?>" class="btn btn-default btn-flat btn-sm mt-1"><i class="fas fa-list"></i> รายละเอียด</a>
 
-                    <a href="<?=base_url();?>/service/print_receipt?invoice=<?=$item->service_invoice;?>" target="_blank" class="btn btn-default btn-flat btn-sm mt-1"><i class="fas fa-receipt"></i> ใบส่งซ่อม</a>
+                    <a href="<?=base_url();?>service/print_receipt?invoice=<?=$item->service_invoice;?>" target="_blank" class="btn btn-default btn-flat btn-sm mt-1"><i class="fas fa-receipt"></i> ใบส่งซ่อม</a>
 
-                    <a href="<?=base_url();?>/service/print_tax?invoice=<?=$item->service_invoice;?>" target="_blank" class="btn btn-default btn-flat btn-sm mt-1"><i class="fas fa-file-invoice"></i> ใบกำกับภาษี</a>
+                    <a href="<?=base_url();?>service/print_tax?invoice=<?=$item->service_invoice;?>" target="_blank" class="btn btn-default btn-flat btn-sm mt-1"><i class="fas fa-file-invoice"></i> ใบกำกับภาษี</a>
 
                 </td>
 
