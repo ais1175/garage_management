@@ -17,6 +17,10 @@ Donate / สนับสนุนค่ากาแฟ
 - AdminLTE (template)
 - Sweetalert2 
 
+_ค่าเริ่มต้นเข้าสู่ระบบ_
+- username : admin
+- password : admin
+
 **************************
 รายละเอียด
 **************************
