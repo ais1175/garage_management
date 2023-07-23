@@ -147,7 +147,7 @@
 
 			$.ajax({
 
-				url: '<?=base_url();?>/login/check_login',
+				url: '<?= base_url(); ?>/login/check_login',
 
 				method: 'POST',
 
@@ -173,7 +173,7 @@
 
 							title: 'สำเร็จ',
 
-							text: 'ยินดีต้อนรับเข้าสู่ระบบบริหารจัดการงานอู่ณัฐวุฒิ',
+							text: 'ยินดีต้อนรับเข้าสู่ระบบบริหารจัดการงานอู่ซ่อมรถ',
 
 							showConfirmButton: false,
 
