@@ -1,71 +1,33 @@
 ###################
-What is CodeIgniter
+Donate / สนับสนุนค่ากาแฟ
 ###################
+ 😊สนับสนุนค่ากาแฟค่าขนมกันได้นะครับ 😊
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+- บัญชีธนาคารไทยพาณิชย์ (SCB)
+- เลขที่บัญชี : 406-973447-0
+- ชื่อบัญชี : เกรียงไกร ใจมา
+
+.........ขอบคุณครับผม 🙏 .........
 
 *******************
-Release Information
+เครื่องมือที่ใช้พัฒนา
 *******************
+- Codeigniter 3 Framework (PHP)
+- MySql (Database)
+- AdminLTE (template)
+- Sweetalert2 
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+_ค่าเริ่มต้นเข้าสู่ระบบ_
+- username : admin
+- password : admin
 
 **************************
-Changelog and New Features
+รายละเอียด
 **************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+- เป็นระบบบริหารจัดการงานซ่อมรถของอู่ซ่อมรถ และการออกใบเสร็จหรือใบแจ้งซ่อมทั่วไป และเก็บข้อมูลสถานะการแจ้งซ่อม และการรับรถ เก็บประวัติการซ่อมโดยอ้างอิงจากข้อมูลทะเบียนรถ เป็นต้น สามารถนำไปใช้งานได้จริง หรือสำหรับนักพัฒนาก็สามารถนำไปพัฒนาต่อได้ ครับ  ใน github นี้ มีไฟล์ table ของ database ให้เรียบร้อย
 
 *******************
-Server Requirements
+Developer
 *******************
+iDevper (K.Jaima)
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
