@@ -18,7 +18,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active"> รายงานการส่งซ่อม</li>
 
@@ -136,7 +136,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/report/tblReportService',
+            url: '<?=base_url();?>report/tblReportService',
 
             method: 'POST',
 

@@ -16,23 +16,23 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
 
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/AdminLTE/plugins/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/AdminLTE/plugins/fontawesome-free/css/all.min.css">
 
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
 
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/AdminLTE/dist/css/adminlte.min.css?v=3.2.0">
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/AdminLTE/dist/css/adminlte.min.css?v=3.2.0">
 
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/AdminLTE/plugins/sweetalert2/sweetalert2.min.css">
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/AdminLTE/plugins/sweetalert2/sweetalert2.min.css">
 
-	<script src="<?= base_url(); ?>/assets/AdminLTE/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<script src="<?= base_url(); ?>assets/AdminLTE/plugins/sweetalert2/sweetalert2.all.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 	<!-- SweetAlert2 -->
 
-	<script src="<?= base_url(); ?>/assets/AdminLTE/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<script src="<?= base_url(); ?>assets/AdminLTE/plugins/sweetalert2/sweetalert2.all.min.js"></script>
 
-	<link rel="stylesheet" href="<?= base_url(); ?>/assets/AdminLTE/plugins/sweetalert2/sweetalert2.min.css">
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/AdminLTE/plugins/sweetalert2/sweetalert2.min.css">
 
 	<style>
 		* {
@@ -56,7 +56,7 @@
 
 				<div class="login-logo">
 
-					<img src="<?= base_url(); ?>/assets/img/logo.png" class="img-fluid" style="max-width: 200px;">
+					<img src="<?= base_url(); ?>assets/img/logo.png" class="img-fluid" style="max-width: 200px;">
 
 				</div>
 
@@ -147,7 +147,7 @@
 
 			$.ajax({
 
-				url: '<?= base_url(); ?>/login/check_login',
+				url: '<?= base_url(); ?>login/check_login',
 
 				method: 'POST',
 
@@ -212,11 +212,11 @@
 		})
 	</script>
 
-	<script src="<?= base_url(); ?>/assets/AdminLTE/plugins/jquery/jquery.min.js"></script>
+	<script src="<?= base_url(); ?>assets/AdminLTE/plugins/jquery/jquery.min.js"></script>
 
-	<script src="<?= base_url(); ?>/assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="<?= base_url(); ?>assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-	<script src="<?= base_url(); ?>/assets/AdminLTE/dist/js/adminlte.min.js?v=3.2.0"></script>
+	<script src="<?= base_url(); ?>assets/AdminLTE/dist/js/adminlte.min.js?v=3.2.0"></script>
 
 
 

@@ -32,7 +32,7 @@
 
              <div class="dropdown-menu dropdown-menu-right">
 
-                 <a href="<?=base_url();?>/logout" class="dropdown-item logout">
+                 <a href="<?=base_url();?>logout" class="dropdown-item logout">
 
                      <i class="fas fa-power-off mr-2"></i> ออกจากระบบ
 

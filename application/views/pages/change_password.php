@@ -170,7 +170,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/change_password',
+                            url: '<?=base_url();?>change_password',
 
                             method: 'POST',
 

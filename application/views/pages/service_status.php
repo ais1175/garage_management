@@ -16,7 +16,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active"> รายการส่งซ่อม</li>
 
@@ -38,7 +38,7 @@
 
                 <div class="col-md-12 mb-2">
 
-                    <a href="<?=base_url();?>/pages/service_create" class="btn btn-primary rounded-0"><i class="fas fa-tools"></i> รับงานซ่อม</a>
+                    <a href="<?=base_url();?>pages/service_create" class="btn btn-primary rounded-0"><i class="fas fa-tools"></i> รับงานซ่อม</a>
 
                 </div>
 
@@ -88,7 +88,7 @@
 
         if(status==''){
 
-            window.location.assign('<?=base_url();?>/pages/service');
+            window.location.assign('<?=base_url();?>pages/service');
 
         }
 
@@ -128,13 +128,13 @@
 
             default :
 
-            window.location.assign('<?=base_url();?>/pages/service');
+            window.location.assign('<?=base_url();?>pages/service');
 
         }
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/tblService',
+            url: '<?=base_url();?>service/tblService',
 
             method: 'POST',
 

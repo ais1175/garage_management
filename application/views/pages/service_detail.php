@@ -38,7 +38,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active">รายละเอียด</li>
 
@@ -392,13 +392,13 @@
 
                                     <div class="col-md-6 mt-2">
 
-                                        <a id="paper_receipt" class="btn btn-default btn-block rounded-0" target="_blank" href="<?=base_url();?>/service/print_receipt?invoice=<?= $service->service_invoice; ?>">ใบรับซ่อม/ใบเสร็จ<a>
+                                        <a id="paper_receipt" class="btn btn-default btn-block rounded-0" target="_blank" href="<?=base_url();?>service/print_receipt?invoice=<?= $service->service_invoice; ?>">ใบรับซ่อม/ใบเสร็จ<a>
 
                                     </div>
 
                                     <div class="col-md-6 mt-2">
 
-                                        <a id="paper_receipt" class="btn btn-default btn-block rounded-0" target="_blank" href="<?=base_url();?>/service/print_tax?invoice=<?= $service->service_invoice; ?>">ใบกำกับภาษี<a>
+                                        <a id="paper_receipt" class="btn btn-default btn-block rounded-0" target="_blank" href="<?=base_url();?>service/print_tax?invoice=<?= $service->service_invoice; ?>">ใบกำกับภาษี<a>
 
                                     </div>
 
@@ -548,7 +548,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/get_discount',
+            url: '<?=base_url();?>service/get_discount',
 
             method: 'POST',
 
@@ -622,7 +622,7 @@
 
                 $.ajax({
 
-                    url: '<?=base_url();?>/service/update_discount',
+                    url: '<?=base_url();?>service/update_discount',
 
                     method: 'POST',
 
@@ -692,7 +692,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/get_invoice',
+            url: '<?=base_url();?>service/get_invoice',
 
             method: 'POST',
 
@@ -750,7 +750,7 @@
 
                         if (result.isConfirmed) {
 
-                            window.location.assign('<?=base_url();?>/pages/service_create')
+                            window.location.assign('<?=base_url();?>pages/service_create')
 
                         }
 
@@ -780,7 +780,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/update_option_vat',
+            url: '<?=base_url();?>service/update_option_vat',
 
             method: 'POST',
 
@@ -818,7 +818,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/product/option_product',
+            url: '<?=base_url();?>product/option_product',
 
             method: 'POST',
 
@@ -838,7 +838,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/tbl_service_detail',
+            url: '<?=base_url();?>service/tbl_service_detail',
 
             method: 'POST',
 
@@ -898,7 +898,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/service/del_service_detail',
+                            url: '<?=base_url();?>service/del_service_detail',
 
                             method: 'POST',
 
@@ -1040,7 +1040,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/add_service_detail',
+            url: '<?=base_url();?>service/add_service_detail',
 
             method: 'POST',
 
@@ -1152,7 +1152,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/service/confirm_fix',
+                            url: '<?=base_url();?>service/confirm_fix',
 
                             method: 'POST',
 
@@ -1268,7 +1268,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/service/confirm_fixed',
+                            url: '<?=base_url();?>service/confirm_fixed',
 
                             method: 'POST',
 
@@ -1382,7 +1382,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/service/confirm_pick_car',
+                            url: '<?=base_url();?>service/confirm_pick_car',
 
                             method: 'POST',
 
@@ -1494,7 +1494,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/service/cancel_service',
+                            url: '<?=base_url();?>service/cancel_service',
 
                             method: 'POST',
 

@@ -16,7 +16,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active">จัดการสินค้าและบริการ</li>
 
@@ -188,7 +188,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/product/tbl_product',
+            url: '<?=base_url();?>product/tbl_product',
 
             method: 'POST',
 
@@ -212,7 +212,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/product/get_product',
+            url: '<?=base_url();?>product/get_product',
 
             method: 'POST',
 
@@ -318,7 +318,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/product/add_product',
+                            url: '<?=base_url();?>product/add_product',
 
                             method: 'POST',
 
@@ -452,7 +452,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/product/update_product',
+                            url: '<?=base_url();?>product/update_product',
 
                             method: 'POST',
 
@@ -568,7 +568,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/product/del_product',
+                            url: '<?=base_url();?>product/del_product',
 
                             method: 'POST',
 

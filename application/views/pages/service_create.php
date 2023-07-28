@@ -20,7 +20,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active">รับงานซ่อม</li>
 
@@ -282,7 +282,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/search_license_plate',
+            url: '<?=base_url();?>service/search_license_plate',
 
             method: 'POST',
 
@@ -376,7 +376,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/service/create_service',
+                            url: '<?=base_url();?>service/create_service',
 
                             method: 'POST',
 
@@ -424,7 +424,7 @@
 
                                     setTimeout(function() {
 
-                                        window.location.assign('<?=base_url();?>/pages/service_detail/' + res.service_invoice);
+                                        window.location.assign('<?=base_url();?>pages/service_detail/' + res.service_invoice);
 
                                     }, 1500);
 
@@ -484,7 +484,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/service/search_license_plate',
+            url: '<?=base_url();?>service/search_license_plate',
 
             method: 'POST',
 

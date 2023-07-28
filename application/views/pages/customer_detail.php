@@ -18,7 +18,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active">รายละเอียดลูกค้า</li>
 
@@ -46,7 +46,7 @@
 
                 <div class="col-6 mb-2 text-right">
 
-                    <a class="btn btn-default btn-flat" href="<?=base_url();?>/pages/customer"><i class="fas fa-search"></i> ค้นหาทะเบียนรถ</a>
+                    <a class="btn btn-default btn-flat" href="<?=base_url();?>pages/customer"><i class="fas fa-search"></i> ค้นหาทะเบียนรถ</a>
 
                 </div>
 
@@ -236,7 +236,7 @@
 
         $.ajax({
 
-            url : '<?=base_url();?>/customer/tbl_customer_history',
+            url : '<?=base_url();?>customer/tbl_customer_history',
 
             method : 'POST',
 

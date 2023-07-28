@@ -18,7 +18,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active">ทะเบียนลูกค้า</li>
 
@@ -104,7 +104,7 @@
 
         $.ajax({
 
-            url : '<?=base_url();?>/customer/tblCustomer',
+            url : '<?=base_url();?>customer/tblCustomer',
 
             method : 'POST',
 
@@ -132,7 +132,7 @@
 
         $.ajax({
 
-            url : '<?=base_url();?>/customer/tblCustomer',
+            url : '<?=base_url();?>customer/tblCustomer',
 
             method : 'POST',
 

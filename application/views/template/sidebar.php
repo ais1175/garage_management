@@ -4,9 +4,9 @@
 
     <!-- Brand Logo -->
 
-    <a href="<?=base_url();?>/pages" class="brand-link text-center">
+    <a href="<?=base_url();?>pages" class="brand-link text-center">
 
-        <img src="<?=base_url();?>/assets/img/logo.png" style="width:100%; max-width: 100px;">
+        <img src="<?=base_url();?>assets/img/logo.png" style="width:100%; max-width: 100px;">
 
     </a>
 
@@ -22,7 +22,7 @@
 
             <div class="info">
 
-                <a href="<?=base_url();?>/pages" class="d-block"><strong></strong> <?= $this->session->userdata('admin_name'); ?></a>
+                <a href="<?=base_url();?>pages" class="d-block"><strong></strong> <?= $this->session->userdata('admin_name'); ?></a>
 
             </div>
 
@@ -36,7 +36,7 @@
 
                 <li class="nav-item ">
 
-                    <a href="<?=base_url();?>/pages" class="nav-link <?= ($active == 'dashboard') ? 'active' : ''; ?>">
+                    <a href="<?=base_url();?>pages" class="nav-link <?= ($active == 'dashboard') ? 'active' : ''; ?>">
 
                         <i class="nav-icon fas fa-home"></i>
 
@@ -52,7 +52,7 @@
 
                 <li class="nav-item ">
 
-                    <a href="<?=base_url();?>/pages/service_create" class="nav-link <?= ($active == 'service_create') ? 'active' : ''; ?>">
+                    <a href="<?=base_url();?>pages/service_create" class="nav-link <?= ($active == 'service_create') ? 'active' : ''; ?>">
 
                         <i class="nav-icon fas fa-tools"></i>
 
@@ -88,7 +88,7 @@
 
                         <li class="nav-item">
 
-                            <a href="<?=base_url();?>/pages/service" class="nav-link <?=($active=='service'?'active':'');?>">
+                            <a href="<?=base_url();?>pages/service" class="nav-link <?=($active=='service'?'active':'');?>">
 
                                 <i class="fas fa-circle nav-icon"></i>
 
@@ -100,7 +100,7 @@
 
                         <li class="nav-item">
 
-                            <a href="<?=base_url();?>/pages/service_status?status=created" class="nav-link <?=($this->input->get('status')=='created'?'active':'');?>">
+                            <a href="<?=base_url();?>pages/service_status?status=created" class="nav-link <?=($this->input->get('status')=='created'?'active':'');?>">
 
                                 <i class="fas fa-circle nav-icon text-primary"></i>
 
@@ -114,7 +114,7 @@
 
                         <li class="nav-item">
 
-                            <a href="<?=base_url();?>/pages/service_status?status=wait" class="nav-link <?=($this->input->get('status')=='wait'?'active':'');?>">
+                            <a href="<?=base_url();?>pages/service_status?status=wait" class="nav-link <?=($this->input->get('status')=='wait'?'active':'');?>">
 
                                 <i class="fas fa-circle nav-icon text-danger"></i>
 
@@ -128,7 +128,7 @@
 
                         <li class="nav-item">
 
-                            <a href="<?=base_url();?>/pages/service_status?status=fixed" class="nav-link <?=($this->input->get('status')=='fixed'?'active':'');?>">
+                            <a href="<?=base_url();?>pages/service_status?status=fixed" class="nav-link <?=($this->input->get('status')=='fixed'?'active':'');?>">
 
                                 <i class="fas fa-circle nav-icon text-warning"></i>
 
@@ -142,7 +142,7 @@
 
                         <li class="nav-item">
 
-                            <a href="<?=base_url();?>/pages/service_status?status=done" class="nav-link <?=($this->input->get('status')=='done'?'active':'');?>">
+                            <a href="<?=base_url();?>pages/service_status?status=done" class="nav-link <?=($this->input->get('status')=='done'?'active':'');?>">
 
                                 <i class="fas fa-circle nav-icon text-success"></i>
 
@@ -162,7 +162,7 @@
 
                 <li class="nav-item">
 
-                    <a href="<?=base_url();?>/pages/customer" class="nav-link <?= ($active == 'customer') ? 'active' : ''; ?>">
+                    <a href="<?=base_url();?>pages/customer" class="nav-link <?= ($active == 'customer') ? 'active' : ''; ?>">
 
                         <i class="nav-icon fas fa-car"></i>
 
@@ -180,7 +180,7 @@
 
                 <li class="nav-item">
 
-                    <a href="<?=base_url();?>/pages/report_service" class="nav-link <?= ($active == 'report_service') ? 'active' : ''; ?>">
+                    <a href="<?=base_url();?>pages/report_service" class="nav-link <?= ($active == 'report_service') ? 'active' : ''; ?>">
 
                         <i class="nav-icon fas fa-circle"></i>
 
@@ -196,7 +196,7 @@
 
                 <li class="nav-item">
 
-                    <a href="<?=base_url();?>/pages/product" class="nav-link <?= ($active == 'product') ? 'active' : ''; ?>">
+                    <a href="<?=base_url();?>pages/product" class="nav-link <?= ($active == 'product') ? 'active' : ''; ?>">
 
                         <i class="nav-icon fas fa-shopping-cart"></i>
 
@@ -210,7 +210,7 @@
 
                     <li class="nav-item">
 
-                        <a href="<?=base_url();?>/pages/user" class="nav-link <?= ($active == 'user') ? 'active' : ''; ?>">
+                        <a href="<?=base_url();?>pages/user" class="nav-link <?= ($active == 'user') ? 'active' : ''; ?>">
 
                             <i class="nav-icon fas fa-user"></i>
 
@@ -230,7 +230,7 @@
 
                 <li class="nav-item">
 
-                    <a href="<?=base_url();?>/pages/change_password" class="nav-link <?= ($active == 'change_password') ? 'active' : ''; ?>">
+                    <a href="<?=base_url();?>pages/change_password" class="nav-link <?= ($active == 'change_password') ? 'active' : ''; ?>">
 
                         <i class="nav-icon fas fa-cog"></i>
 
@@ -242,7 +242,7 @@
 
                 <li class="nav-item">
 
-                    <a href="<?=base_url();?>/logout" class="nav-link">
+                    <a href="<?=base_url();?>logout" class="nav-link">
 
                         <i class="nav-icon fas fa-power-off"></i>
 
@@ -274,7 +274,7 @@
 
         $.ajax({
 
-            url : '<?=base_url();?>/service/sidebar_status',
+            url : '<?=base_url();?>service/sidebar_status',
 
             method: 'POST',
 

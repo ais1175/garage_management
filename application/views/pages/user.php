@@ -16,7 +16,7 @@
 
                     <ol class="breadcrumb float-sm-right">
 
-                        <li class="breadcrumb-item"><a href="<?=base_url();?>/pages">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="<?=base_url();?>pages">หน้าหลัก</a></li>
 
                         <li class="breadcrumb-item active">จัดการผู้ใช้งานระบบ</li>
 
@@ -240,7 +240,7 @@
 
         $.ajax({
 
-            url: '<?=base_url();?>/user/tbl_user',
+            url: '<?=base_url();?>user/tbl_user',
 
             method: 'POST',
 
@@ -348,7 +348,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/user/add_user',
+                            url: '<?=base_url();?>user/add_user',
 
                             method: 'POST',
 
@@ -504,7 +504,7 @@
 
                         $.ajax({
 
-                            url: '<?=base_url();?>/user/update_user',
+                            url: '<?=base_url();?>user/update_user',
 
                             method: 'POST',
 
